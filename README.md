@@ -3,6 +3,12 @@ This repository includes the age-specific non-contrast CT ASPECTS atlases across
 
 Keywords: Non-contrast computed tomography, ASPECTS regions, age-specific atlas. 
 
+## Preprocessing
+The preprocessing include brain tissue extraction and image alignment. The former extract brain tissue at the selected ASPECTS layers based on threshold and connected domain, the latter align the image to keep the brain region in the center of the image and horizontally symmetrical using the Symmetry-Enhanced Attention Network (Ni, H. et al. (2022). Asymmetry Disentanglement Network for Interpretable Acute Ischemic Stroke Infarct Segmentation in Non-contrast CT Scans. In: Wang, L., Dou, Q., Fletcher, P.T., Speidel, S., Li, S. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2022. MICCAI 2022. Lecture Notes in Computer Science, vol 13438. Springer, Cham. https://doi.org/10.1007/978-3-031-16452-1_40).
+
+## Atlas construction
+We utilized the workflow defined in the $ antsMultivariateTemplateConstruction2.sh $ script from the Advanced Normalization Tools (ANTs, http://stnava.github.io/ANTs/). The iteration number was set to 4, and the remaining parameters were set to default values.
+
 ## Data provided 
 * ASPECTS atlases
   * Average intensity brain (skull stripped)
