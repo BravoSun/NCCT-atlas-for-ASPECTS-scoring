@@ -1,5 +1,5 @@
 # NCCT-atlas-for-ASPECTS-scoring
-This repository includes the age-specific non-contrast CT ASPECTS atlases across four age groups: 10-30 years, 30-50 years, 50-70 years, and 70-90 years constructed based on 281 NCCT images of healthy subjects from clinical practice. 
+This repository includes the age-specific non-contrast CT ASPECTS atlases across four age groups: 10-29 years, 30-49 years, 50-69 years, and 70-89 years constructed based on 281 NCCT images of healthy subjects from clinical practice. 
 
 Keywords: Non-contrast computed tomography, ASPECTS regions, age-specific atlas. 
 
