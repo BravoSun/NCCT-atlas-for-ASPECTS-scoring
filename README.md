@@ -9,11 +9,19 @@ The preprocessing include brain tissue extraction and image alignment. The forme
 ## Atlas construction
 We utilized the workflow defined in the $ antsMultivariateTemplateConstruction2.sh $ script from the Advanced Normalization Tools (ANTs, http://stnava.github.io/ANTs/). The iteration number was set to 4, and the remaining parameters were set to default values.
 
+## ASPECTS key slices localization
+A neural network (ASPECTSLoc-Net) was developed to automatically localize the subcortical and cortical regions from a single brain NCCT image.  
+
+## ASPECTS region mapping
+After brain tissue extraction, the cortical and subcortical regions were registered with the corresponding atlas to achieve ASPECTS region mapping.
+
 ## Data provided 
 * ASPECTS atlases
   * Average intensity brain (skull stripped)
   * ASPECTS regions (skull stripped) 
   
 ## Usage Notes 
-The constructed age-specific ASPECTS atlases are a series of two-dimensional atlases corresponding to the level of the thalamus and basal ganglia and the rostral to ganglionic structures of different age groups. In the usage process, users need to manually select relevant NCCT image layers to map the ASPECTS regions and extract the brain tissue. These atlases not only can be used for rapid ASPECTS scoring, but the relevant neuroscience research.
+The constructed age-specific ASPECTS atlases are a series of two-dimensional atlases corresponding to the level of the thalamus and basal ganglia and the rostral to ganglionic structures of different age groups. In the usage process, users can either utilize our ASPECTSLoc-Net or manually determine the ASPECTS slices to map the corresponding ASPECTS regions. These atlases not only can be used for rapid ASPECTS scoring, but the relevant neuroscience research.
+  
+
   
