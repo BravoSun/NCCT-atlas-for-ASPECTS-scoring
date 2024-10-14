@@ -18,10 +18,11 @@ After brain tissue extraction, the cortical and subcortical regions were registe
 ## Data provided 
 * ASPECTS atlases
   * Average intensity brain (skull stripped)
-  * ASPECTS regions (skull stripped) 
+  * ASPECTS regions (skull stripped)
+Our final constructed ASPECTS atlas has been released in https://doi.org/10.6084/m9.figshare.26819290.
   
 ## Usage Notes 
 The constructed age-specific ASPECTS atlases are a series of two-dimensional atlases corresponding to the level of the thalamus and basal ganglia and the rostral to ganglionic structures of different age groups. In the usage process, users can either utilize our ASPECTSLoc-Net or manually determine the ASPECTS slices to map the corresponding ASPECTS regions. These atlases not only can be used for rapid ASPECTS scoring, but the relevant neuroscience research.
   
-
+## Citation
   
