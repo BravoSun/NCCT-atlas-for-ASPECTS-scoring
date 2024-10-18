@@ -25,4 +25,4 @@ Our final constructed ASPECTS atlas has been released in https://doi.org/10.6084
 The constructed age-specific ASPECTS atlases are a series of two-dimensional atlases corresponding to the level of the thalamus and basal ganglia and the rostral to ganglionic structures of different age groups. In the usage process, users can either utilize our ASPECTSLoc-Net or manually determine the ASPECTS slices to map the corresponding ASPECTS regions. These atlases not only can be used for rapid ASPECTS scoring, but the relevant neuroscience research.
   
 ## Citation
-  
+Sun, Q., Wang, G., Yang, J. et al. Age-specific ASPECTS atlas of Chinese subjects across different age groups for assessing acute ischemic stroke. Sci Data 11, 1132 (2024). https://doi.org/10.1038/s41597-024-03973-y
